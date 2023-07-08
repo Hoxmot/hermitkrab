@@ -4,9 +4,17 @@
   "description": "A simple, customisable tool to help you in your apartment search!",
   "main": "index.js",
   "scripts": {
+    "build": "pnpm compile",
+    "compile": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Hoxmot <hoxmot@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node18": "^2.0.0",
+    "@types/node": "^18.15.0",
+    "typescript": "^5.1.6"
+  },
+  "packageManager": "pnpm@8.6.5"
 }
