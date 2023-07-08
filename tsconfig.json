@@ -1,9 +1,9 @@
 {
-    "extends": "@tsconfig/node18",
-    "compilerOptions": {
-        "module": "ES2022",
-        "moduleResolution": "Node16",
-        "outDir": "dist",
-    },
-    "include": ["src/*"]
+  "extends": "@tsconfig/node18",
+  "compilerOptions": {
+    "module": "ES2022",
+    "moduleResolution": "Node16",
+    "outDir": "dist"
+  },
+  "include": ["src/*"]
 }
