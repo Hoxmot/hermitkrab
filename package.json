@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A simple, customisable tool to help you in your apartment search!",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "pnpm lint && pnpm format && pnpm compile && pnpm test",
     "format": "prettier src --check",
